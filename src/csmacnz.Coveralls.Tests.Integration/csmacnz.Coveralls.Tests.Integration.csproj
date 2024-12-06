@@ -27,11 +27,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\csmacnz.Coveralls\csmacnz.Coveralls.csproj" />
+    <PackageReference Update="SonarAnalyzer.CSharp" Version="10.3.0.106239" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Update="SonarAnalyzer.CSharp" Version="10.3.0.106239" />
+    <ProjectReference Include="..\csmacnz.Coveralls\csmacnz.Coveralls.csproj" />
   </ItemGroup>
 
 </Project>

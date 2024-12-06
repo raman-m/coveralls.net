@@ -32,6 +32,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Update="SonarAnalyzer.CSharp" Version="10.3.0.106239" />
+  </ItemGroup>
+
+  <ItemGroup>
     <AdditionalFiles Update="C:\Dev\coveralls.net\/stylecop.json">
       <CopyToOutputDirectory>false</CopyToOutputDirectory>
     </AdditionalFiles>
@@ -40,9 +44,4 @@
   <ItemGroup>
       <None Include="icon.png" Pack="true" PackagePath="" />
   </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Update="SonarAnalyzer.CSharp" Version="10.3.0.106239" />
-  </ItemGroup>
-
 </Project>
